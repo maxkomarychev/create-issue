@@ -1,0 +1,30 @@
+name: Create issue
+description: Create issue
+
+inputs:
+  token:
+    description: A token to perform API calls
+    required: true
+  title:
+    description: The title of the issue.
+    required: true
+  body:
+    description: The contents of the issue.
+    required: false
+  milestone:
+    description: The number of the milestone to associate this issue with
+    required: false
+  labels:
+    description: Labels to associate with this issue.
+    required: false
+  assignees:
+    description: Logins for Users to assign to this issue
+    required: false
+
+runs:
+  using: node12
+  main: index.js
+
+branding:
+  icon: alert-triangle
+  color: orange
