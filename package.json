@@ -1,6 +1,6 @@
 {
   "name": "create-issue",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Create issue",
   "main": "index.js",
   "keywords": [],
